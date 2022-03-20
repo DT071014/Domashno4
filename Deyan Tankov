@@ -1,0 +1,81 @@
+package myfirst;
+
+public class domashno4 {
+    public static void main(String[] args) {
+        //domashno 4
+        //zadacha 1
+        short myNum;
+        myNum = -250;
+        System.out.println(myNum);
+        short myNum1;
+        myNum1 = 250;
+        System.out.println(myNum1);
+        int myNum2;
+        myNum2 = 4_589_498;
+        System.out.println(myNum2);
+        double myNum3;
+        myNum3 = 10_000_000_000_000_000_000d;
+        System.out.println(myNum3);
+        double myNum4;
+        myNum4 = -9_000_000_000_000_000_000d;
+        System.out.println(myNum4);
+        //zadacha 2
+        int myNum5;
+        myNum5 = 43_112;
+        System.out.println(myNum5);
+        int myNum6;
+        myNum6 = -1_357_674;
+        System.out.println(myNum6);
+        int myNum7;
+        myNum7 = 1_357_674;
+        System.out.println(myNum7);
+        int myNum8;
+        myNum8 = -1_357_674_000;
+        System.out.println(myNum8);
+        long myNum9;
+        myNum9 = 3_657_895_000l;
+        System.out.println(myNum9);
+        //zadacha 3
+        float myNum10;
+        myNum10 = 4.9876543f;
+        System.out.println(myNum10);
+        double myNum11;
+        myNum11 = 7.123456789012345678890d;
+        System.out.println(myNum11);
+        float myNum12;
+        myNum12 = 18_398_458_438_583_853.28f;
+        System.out.println(myNum12);
+        double myNum13;
+        myNum13 = 18_398_458_438_583_853.39875937284928422d;
+        System.out.println(myNum13);
+
+        //domashno 2 chast
+        String myName = "Deyan";
+        System.out.println(myName);
+
+        String myFriend ="Jorji";
+        System.out.println(myName.equals(myFriend));
+        System.out.println(myName.equalsIgnoreCase(myFriend));
+        System.out.println(myName.compareTo(myFriend));
+
+        String myLastname = "Tankov";
+        System.out.println(myName.concat(myLastname));
+        System.out.println(myName+myLastname);
+        System.out.println(String.join("",myName,myLastname));
+
+        String myAge = "31";
+        System.out.println(myAge);
+
+        System.out.println(myName.concat(" ").concat(myLastname).concat(" ").concat(myAge));
+        System.out.println(myName+" "+myLastname+" "+myAge);
+        System.out.println(String.join(" ",myName,myLastname,myAge));
+
+        String myGirlfriend = "Ralica";
+        String myGirlfriendLastName = "Spasova";
+        String myGirlfriendaAge = " 32 ";
+        System.out.println(myGirlfriend.concat(" ").concat(myGirlfriendLastName.concat(" ").concat(myGirlfriendaAge)));
+        System.out.println(myGirlfriend+" "+myGirlfriendLastName+" "+myGirlfriendaAge);
+        System.out.println(String.join(" ",myGirlfriend,myGirlfriendLastName,myGirlfriendaAge));
+
+    }
+}
